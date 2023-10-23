@@ -1,27 +1,21 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Чек лист
 
-Currently, two official plugins are available:
+## Основные проверки
+1. [ ] При работе приложения нет никаких ошибок или предупреждений в инспекторе
+2. [ ] Страница с курсами валют отображает курсы относительно базовой валюты
+3. [ ] Пользователь может настроить базовую валюту
+4. [ ] Реализован конвертер, позволяющий вводить сумму и исходную валюту для конвертации
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Дополнительные проверки (выполнять по ТЗ не обязательно, но это будет плюсом)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. [ ] Написаны unit тесты
+2. [ ] Компонентные тесты
+3. [ ] E2E / UI тесты
+4. [ ] Учтены состояния загрузки данных и ошибки при работе приложения
+5. [ ] Проверено на разных браузерах и устройствах
+6. [ ] В проекте есть Readme с информацией как запустить проект
+7. [ ] Результат опубликован на github pages или другой хостинг
+8. [ ] Реализован CI / CD. Как вариант github actions
+9. [ ] Проект хранится в публичном репозитории. Как вариант\на github или gitlab
